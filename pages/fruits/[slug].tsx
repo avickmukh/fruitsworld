@@ -1,9 +1,9 @@
-import React from 'react';
+import Layout from "@/components/Layout";
 
 export default function FruitComponent() {
   return (
-    <div>
+    <Layout >
         Fruit
-    </div>
+    </Layout>
   );
 }

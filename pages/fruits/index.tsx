@@ -1,9 +1,9 @@
-import React from 'react';
+import Layout from '@/components/Layout'
 
 export default function FruitsComponent() {
   return (
-    <div>
+    <Layout title='World Fruits' description='list of fruits' keywords='Mango,Apple,Grapes,Banana'>
        Fruits Component
-    </div>
-  );
+    </Layout>
+  )
 }

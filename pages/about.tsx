@@ -1,9 +1,9 @@
-import React from 'react';
+import Layout from "@/components/Layout";
 
 export default function AboutPage() {
   return (
-    <div>
+    <Layout title="About Page" description="this is about us page" keywords="avick, avickmukh">
       <h1>About Page</h1>
-    </div>
+    </Layout>
   );
 }
